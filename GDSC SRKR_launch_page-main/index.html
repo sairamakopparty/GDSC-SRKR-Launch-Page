@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Launch Confetti</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="container">
+            <button id="launchButton">Launch 🚀</button>
+            <div id="hiddenVideo">
+                <video width="100%" id="autoplayVideo" autoplay>
+                    <source src="./video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <canvas id="confetti-canvas"></canvas>
+        </div>
+        <script src="./confetti.js"></script>
+    </body>
+</html>
